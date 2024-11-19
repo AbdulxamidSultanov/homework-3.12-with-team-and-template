@@ -15,7 +15,6 @@ body {
 }
 
 .hero {
-<<<<<<< HEAD
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,6 +38,7 @@ body {
   height: 20px;
   border: 1px solid #ada7a7;
   border-radius: 3px;
+  padding: 2px 2px;
 }
 
 .th .p {
@@ -84,6 +84,7 @@ body {
   height: 20px;
   border: 1px solid #ada7a7;
   border-radius: 3px;
+  padding: 2px 2px;
 }
 
 .td p {
@@ -124,8 +125,6 @@ body {
   margin-left: 175px;
   color: #000;
   opacity: 65%;
-=======
->>>>>>> main
 }
 
 @media screen and (max-width: 1200px) {
