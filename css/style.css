@@ -14,6 +14,10 @@ body {
   margin: 0 auto;
 }
 
+.main {
+  margin-left: 60px;
+}
+
 .hero {
   display: flex;
   align-items: center;
