@@ -125,55 +125,52 @@ body {
   margin-left: 175px;
   color: #000;
   opacity: 65%;
-<<<<<<< HEAD
-=======
 }
-.nav{
-    position: fixed;
-    width: 16%;
-    height: 100vh;
-    background-color: white;
-    padding: 23px 41px; 
+.nav {
+  position: fixed;
+  width: 16%;
+  height: 100vh;
+  background-color: white;
+  padding: 23px 41px;
 }
-.text{
-    color: #0B63F8;
-    margin-top: 55px;
-    margin-bottom: 65px;
+.text {
+  color: #0b63f8;
+  margin-top: 55px;
+  margin-bottom: 65px;
 }
-ul{
-    margin-bottom: 180px;
-    list-style: none;
+ul {
+  margin-bottom: 180px;
+  list-style: none;
 }
-span{
-    color: #0B63F8;
+span {
+  color: #0b63f8;
 }
-ul li{
-    margin-bottom: 41px;
+ul li {
+  margin-bottom: 41px;
 }
-ul li a img{
-    contain: '';
+ul li a img {
+  contain: "";
 }
-ul li a{
-    color: #000000;
-    gap: 15px;
-    align-items: center;
-    display: flex;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
+ul li a {
+  color: #000000;
+  gap: 15px;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
-ul li a:hover{
-    color: #0B63F8; 
+ul li a:hover {
+  color: #0b63f8;
 }
-.help{
-    list-style: none;
+.help {
+  list-style: none;
 }
-.help a{
-    color: #000000;
-    gap: 15px;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
->>>>>>> main
+.help a {
+  color: #000000;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1200px) {
