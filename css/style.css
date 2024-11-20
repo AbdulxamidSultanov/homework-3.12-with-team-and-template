@@ -129,12 +129,12 @@ body {
     width: 16%;
     height: 100vh;
     background-color: white;
-    padding: 23px 41px; 
 }
 .text{
     color: #0B63F8;
     margin-top: 55px;
     margin-bottom: 65px;
+    padding-left: 43px;
 }
 ul{
     margin-bottom: 180px;
@@ -146,17 +146,21 @@ span{
 ul li{
     margin-bottom: 41px;
 }
+ul li a svg:hover{  
+  fill: #0b63f8;
+}
 ul li a{
+    padding-left: 40px;
     color: #000000;
     gap: 15px;
     align-items: center;
     display: flex;
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
 }
 ul li a:hover{
     color: #0B63F8; 
 }
+
 .help{
     list-style: none;
 }
@@ -164,7 +168,7 @@ ul li a:hover{
     color: #000000;
     gap: 15px;
     display: flex;
-    align-items: center;
+    padding-left: 43px;
     text-decoration: none;
 }
 
@@ -173,15 +177,14 @@ ul li a:hover{
     width: 16%;
     height: 100vh;
     background-color: white;
-    padding: 23px 41px; 
 }
 .text{
     color: #0B63F8;
-    margin-top: 55px;
-    margin-bottom: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 ul{
-    margin-bottom: 180px;
     list-style: none;
 }
 span{
@@ -194,13 +197,14 @@ ul li{
 ul li a{
     color: #000000;
     gap: 15px;
-    align-items: center;
+    /* align-items: center; */
     display: flex;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
 ul li a:hover{
-    color: #0B63F8; 
+  border-left: 3px solid #0B63F8;
+  color: #0B63F8; 
 }
 .help{
     list-style: none;
