@@ -190,9 +190,7 @@ span{
 ul li{
     margin-bottom: 41px;
 }
-ul li a img{
-    contain: '';
-}
+
 ul li a{
     color: #000000;
     gap: 15px;
