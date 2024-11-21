@@ -286,6 +286,7 @@ ul li a {
 ul li a:hover {
   color: #0B63F8;
   border-left: 3px solid #0B63F8;
+  padding-left: 40px;
 }
 
 .help {
