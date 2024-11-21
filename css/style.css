@@ -89,7 +89,7 @@ input {
   margin-bottom: 40px;
 }
 
-h1 {
+h2 {
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
@@ -171,7 +171,7 @@ h1 {
 }
 
 .p4 {
-  margin-left: 112px;
+  margin-left: 102px;
 }
 
 .p5 {
@@ -196,6 +196,12 @@ h1 {
   border-radius: 3px;
 }
 
+.td span:hover {
+  width: 16px;
+  height: 16px;
+  border-radius: 6px;
+}
+
 .td p {
   font-size: 16px;
   font-weight: 400;
@@ -214,7 +220,7 @@ h1 {
 }
 
 .p9 {
-  margin-left: 48px;
+  margin-left: 40px;
   color: #000;
   opacity: 65%;
 }
@@ -242,13 +248,14 @@ h1 {
   max-width: 230px;
   height: 100vh;
   background-color: white;
-  padding: 23px 41px;
+  padding: 23px 41px 23px 0;
 }
 
 .text {
   color: #0B63F8;
   margin-top: 55px;
   margin-bottom: 65px;
+  padding-left: 41px;
 }
 
 ul {
@@ -256,33 +263,34 @@ ul {
   list-style: none;
 }
 
-span {
-  color: #0B63F8;
-}
-
 ul li {
   margin-bottom: 41px;
 }
 
-ul li a img {
-  contain: '';
+ul li a:hover svg{
+  fill: #0B63F8;
 }
-
+ul li a:hover path{
+  stroke: none;
+}
 ul li a {
   color: #000000;
   gap: 15px;
   align-items: center;
   display: flex;
   text-decoration: none;
-  transition: all 0.3s ease-in-out;
+  transition: color 0.3s ease-in;
+  padding-left: 43px;
 }
 
 ul li a:hover {
   color: #0B63F8;
+  border-left: 3px solid #0B63F8;
 }
 
 .help {
   list-style: none;
+  padding-left: 41px;
 }
 
 .help a {
