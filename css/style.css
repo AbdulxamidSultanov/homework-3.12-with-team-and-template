@@ -148,6 +148,8 @@ h2 {
   height: 20px;
   border: 1px solid #ada7a7;
   border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3 ease-in-out;
 }
 
 .th span:hover {
@@ -200,6 +202,8 @@ h2 {
   height: 20px;
   border: 1px solid #ada7a7;
   border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .td span:hover {
